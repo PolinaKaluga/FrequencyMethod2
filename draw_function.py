@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import math
-
-
+import math 
 def draw_function(func, x_min, x_max):
     x = np.linspace(x_min, x_max, 1000)
     y = [func(i) for i in x]
