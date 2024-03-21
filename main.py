@@ -1,14 +1,32 @@
 import numpy as np
-
-from fourier_transform import *
-
-# вид записи графика для построения графика фурье разложения
-# def f(t):
-#     return np.where(np.abs(t) <=8,(2 - abs(2*t/8)),0)
+import math
 
 
 
-fourier_graph(f)
+
+def f(t):
+    return (1 * np.exp(-2*(t**2)))
+
+#
+from draw_function import *
+
+draw_function(f, -20, 20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
